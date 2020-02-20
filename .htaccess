@@ -1,0 +1,4 @@
+Authtype Basic
+AuthName "Password Authentication Required"
+AuthUserFile /app/.htpasswd
+Require valid-user
