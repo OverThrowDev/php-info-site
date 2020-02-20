@@ -2,3 +2,6 @@ Authtype Basic
 AuthName "Password Authentication Required"
 AuthUserFile /app/.htpasswd
 Require valid-user
+
+
+ErrorDocument 404 /app/404.php
